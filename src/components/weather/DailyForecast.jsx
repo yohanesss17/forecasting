@@ -5,7 +5,7 @@ class DailyForecast extends React.Component {
         return (
             <div className="flex flex-wrap basis-full items-center rounded-[25px] bg-[rgb(255,255,255,0.05)] py-[0.5rem]" key={this.key}>
                 <div className="basis-3/12 flex justify-start">
-                    <img alt="" src={this.props.data.condition.icon} className="w-[50px]" alt="" />
+                    <img alt="" src={this.props.data.condition.icon} className="w-[50px]"/>
                 </div>
                 <div className="basis-7/12 flex flex-wrap">
                     <div className="basis-full lg:basis-full font-semibold">

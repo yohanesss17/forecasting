@@ -77,8 +77,8 @@ class Weather extends React.Component {
     }
 
     async getWeatherAndTime() {
-        await axios.get('http://api.weatherapi.com/v1/forecast.json?key=a68f6cf234b844afb9575904221305&q=' + this.query + '&days=7&aqi=yes&alerts=no').then((result) => {
-            var result = result.data
+        await axios.get('http://api.weatherapi.com/v1/forecast.json?key=a68f6cf234b844afb9575904221305&q=' + this.query + '&days=7&aqi=yes&alerts=no').then((res) => {
+            var result = res.data
             const monthNames = ["January", "February", "March", "April", "May", "June",
                 "July", "August", "September", "October", "November", "December"
             ];

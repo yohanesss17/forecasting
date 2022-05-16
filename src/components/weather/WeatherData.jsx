@@ -81,7 +81,7 @@ class WeatherData extends React.Component {
                                         <h3 className="text-black font-bold text-[14px] lg:text-[18px]">{wind} km/h</h3>
                                     </div>
                                     <div className="basis-full lg:basis-6/12 flex justify-end items-end lg:items-center lg:justify-center pr-[20px]">
-                                        <img className="w-[40px] lg:w-[80px]" src={compass} />
+                                        <img className="w-[40px] lg:w-[80px]" alt="" src={compass} />
                                     </div>
                                 </div>
                             </div>
@@ -95,7 +95,7 @@ class WeatherData extends React.Component {
                                         <h3 className="text-black font-bold text-[14px] lg:text-[18px]">{wind} inch</h3>
                                     </div>
                                     <div className="basis-full lg:basis-6/12 flex justify-end items-end lg:items-center lg:justify-center pr-[20px]">
-                                        <img className="w-[40px] lg:w-[80px]" src={pressure} />
+                                        <img className="w-[40px] lg:w-[80px]" alt="" src={pressure} />
                                     </div>
                                 </div>
                             </div>
@@ -111,7 +111,7 @@ class WeatherData extends React.Component {
                                         <h3 className="text-black font-bold text-[14px] lg:text-[18px]">{forecast.day.daily_chance_of_rain} %</h3>
                                     </div>
                                     <div className="basis-full lg:basis-6/12 flex justify-end items-end lg:items-center lg:justify-center pr-[20px]">
-                                        <img className="w-[40px] lg:w-[80px]" src={rain} />
+                                        <img className="w-[40px] lg:w-[80px]" alt="" src={rain} />
                                     </div>
                                 </div>
                             </div>
@@ -125,7 +125,7 @@ class WeatherData extends React.Component {
                                         <h3 className="text-black font-bold text-[14px] lg:text-[18px]">{uv} </h3>
                                     </div>
                                     <div className="basis-full lg:basis-6/12 flex justify-end items-end lg:items-center lg:justify-center pr-[20px]">
-                                        <img className="w-[40px] lg:w-[80px]" src={uvImg} />
+                                        <img className="w-[40px] lg:w-[80px]" alt="" src={uvImg} />
                                     </div>
                                 </div>
                             </div>
@@ -133,7 +133,6 @@ class WeatherData extends React.Component {
                     </div>
                 </div>
                 <div className="basis-full lg:basis-5/12 flex flex-wrap">
-
                     <div className="basis-full flex flex-wrap text-black mt-[30px] lg:mt-[0px] lg:px-[1rem]">
                         <div className="lg:border-l-[1px] border-[#E6ECEF] lg:px-[2rem] flex flex-wrap">
                             <div className="border-b-[1px] flex flex-wrap basis-full border-subtitle">
